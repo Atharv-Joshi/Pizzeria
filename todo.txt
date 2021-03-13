@@ -1,0 +1,3 @@
+re organize current pages into a version specific folder.
+create a navbar
+create login/sign up pages.
