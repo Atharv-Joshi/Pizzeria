@@ -3,7 +3,7 @@
 
 This is a webiste for a Pizza Company.
 
-### [Version 1](https://pizzeria-v1.herokuapp.com/) :
+### [Version 1](https://pizzeria-v1.herokuapp.com/version1/homev1.html) :
 
 There are four Webpages :
 - Home 
