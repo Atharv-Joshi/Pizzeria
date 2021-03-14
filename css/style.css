@@ -1,3 +1,7 @@
+body{
+    margin: 0px;
+}
+
 .topnav{
     background-color: #333;
     overflow: hidden;
@@ -21,4 +25,13 @@
 .topnav a.active{
     background-color: #4CAF50 ;
     color: white;
+}
+
+
+#login{
+    float : right;
+}
+
+#signup{
+    float : right;
 }
