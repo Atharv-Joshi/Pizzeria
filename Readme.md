@@ -22,3 +22,8 @@ These pages are linked to each other.
 This is a static website and is made only using html with a few lines of css.
 
 
+### [Version 2](https://pizzeria-v1.herokuapp.com/version2/homev2.html)
+
+- Added login and signup pages.
+- Navbar
+- Ongoing Experimentation with CSS.  
