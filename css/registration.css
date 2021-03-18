@@ -3,8 +3,7 @@ body{
     background-image: url("/images/bg-img.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
-    
-
+    background-color: #EF476F;
 }
 
 .logsign{
@@ -24,7 +23,7 @@ body{
     
     max-width: 320px;
     width: 90%;
-    background-color: #1e2833;
+    background-color: #073B4C;
     padding: 40px;
     border-radius: 4px;
     transform: translate(-50%, -50%);
@@ -37,4 +36,46 @@ body{
 
 .form{
     padding: 10px;
+}
+
+input[type=text]{
+    background-color: #073B4C;
+    border:none;
+    border-bottom: 2px solid black;
+    color: white;
+}
+
+input[type=password]{
+    background-color: #073B4C;
+    border:none;
+    border-bottom: 2px solid black;
+    color: white;
+}
+
+input[type=email]{
+    background-color: #073B4C;
+    border:none;
+    border-bottom: 2px solid black;
+    color: white;
+}
+
+
+/* input[type=text]:focus{
+    background-color: #073B4C;
+    
+    
+}
+
+input[type=password]:focus{
+    background-color: #073B4C;
+}
+
+input[type=email]:focus{
+    background-color: #073B4C;
+} */
+
+button{
+    background-color: #FFD166;
+    border-radius: 10px;
+    border: none;
 }
