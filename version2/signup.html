@@ -9,24 +9,35 @@
 </head>
 <body>
     <img src="/images/bg-img.jpeg" alt="pizza background img" srcset="">
+
         <div class = "logsign">
-            <h3>Sign Up</h3>
+            <h3  style="text-align: center;" >Sign Up</h3>
             <form action="">
-                <div class = "form">
-                <label for="firstname">First Name</label>
-                <input  name ="firstname" type="text">
+
+                <div style="margin: 20px 20px;">
+                    <label for="name">Name</label>
+                    <input style="margin-left: 50px;" required  class ="input" name ="name" type="text">
                 </div>
-                <div class = "form">
-                <label for="lastname">Last Name</label>
-                <input  name ="lastname" type="text">
+
+                <div style="margin: 20px 20px;">
+                    <label for="Email">Email Id</label>
+                    <input style="margin-left: 35px;" required class ="input" type="email" name="email">
                 </div>
-                <div class = "form">
-                <label for="Email">Email Id</label>
-                <input  type="email" name="email" id="">
+
+                <div style="margin: 20px 20px;">
+                    <label for="password">Password</label>
+                    <input style="margin-left: 28px;" required name = "password" type="password" name="" >
                 </div>
-                <div class = "form">
-                <button type="submit">Register</button>
+
+                <div style="margin: 20px 20px;">
+                    <label for="confirmpassword">Re enter</label>
+                    <input style="margin-left: 37px;" required name = "confirmpassword" type="password" name="" >
                 </div>
+
+                <div style="margin-top: 50px; margin-left: 15px;" class = "form">
+                    <button type="submit">Register</button>
+                </div>
+
             </form>
         </div>
 

@@ -1,9 +1,5 @@
 body{
     margin: 0px;
-    /* background-image: url("/images/bg-img.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover; */
-    background-color: #EF476F;
 }
 
 .logsign{
@@ -20,15 +16,17 @@ body{
     box-shadow: 3px 3px 4px rgba(0,0,0,0.2);    
 }
 
-.form{
+/* .form{
     padding: 10px;
-}
+} */
 
 input[type=text]{
     background-color: #073B4C;
     border:none;
     border-bottom: 2px solid black;
     color: white;
+    margin-left: 10px;
+    
 }
 
 input[type=password]{
@@ -36,6 +34,7 @@ input[type=password]{
     border:none;
     border-bottom: 2px solid black;
     color: white;
+    margin-left: 10px;
 }
 
 input[type=email]{
@@ -43,15 +42,30 @@ input[type=email]{
     border:none;
     border-bottom: 2px solid black;
     color: white;
+    margin-left: 25px;
 }
 
 button{
     background-color: #FFD166;
     border-radius: 10px;
     border: none;
+    padding: 7px;
 }
 
 img{
     -webkit-filter: blur(5px);
     filter: blur(5px);
-}    
+    height: 100vh;
+    width: 100vw;
+}  
+
+#forgotpsswd{
+    margin-top: 35px;
+    color: white;
+    float: right;
+} 
+
+#input{
+    margin-left: 25px;
+}
+

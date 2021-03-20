@@ -8,6 +8,10 @@ body{
     overflow: hidden;
 }
 
+.logo{
+    float: left;
+}
+
 .topnav a{
     float: left;
     color: #f2f2f2;
@@ -23,12 +27,6 @@ body{
     color: black;
 }
 
-.topnav a.active{
-    background-color: #4CAF50 ;
-    color: white;
-}
-
-
 #login{
     float : right;
 }
@@ -37,4 +35,7 @@ body{
     float : right;
 }
 
-
+.banner{
+    filter: blur(5px);
+    width : 100vw;
+}
