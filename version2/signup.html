@@ -8,38 +8,33 @@
     <link rel="stylesheet" href="/css/registration.css">
 </head>
 <body>
-    <img src="/images/bg-img.jpeg" alt="pizza background img" srcset="">
+    <div class="bgimg">
+    </div>
+    <div class = "logsign">
+        <h3  style="text-align: center;" >Sign Up</h3>
+        <form action="">
 
-        <div class = "logsign">
-            <h3  style="text-align: center;" >Sign Up</h3>
-            <form action="">
+            <div style="margin: 20px 20px;">
+                <label for="name">Name</label>
+                <input style="margin-left: 50px;" required  class ="input" name ="name" type="text">
+            </div>
 
-                <div style="margin: 20px 20px;">
-                    <label for="name">Name</label>
-                    <input style="margin-left: 50px;" required  class ="input" name ="name" type="text">
-                </div>
+            <div style="margin: 20px 20px;">
+                <label for="Email">Email Id</label>
+                <input style="margin-left: 35px;" required class ="input" type="email" name="email">
+            </div>
 
-                <div style="margin: 20px 20px;">
-                    <label for="Email">Email Id</label>
-                    <input style="margin-left: 35px;" required class ="input" type="email" name="email">
-                </div>
+            <div style="margin: 20px 20px;">
+                <label for="password">Password</label>
+                <input style="margin-left: 28px;" required name = "password" type="password" name="" >
+            </div>
 
-                <div style="margin: 20px 20px;">
-                    <label for="password">Password</label>
-                    <input style="margin-left: 28px;" required name = "password" type="password" name="" >
-                </div>
 
-                <div style="margin: 20px 20px;">
-                    <label for="confirmpassword">Re enter</label>
-                    <input style="margin-left: 37px;" required name = "confirmpassword" type="password" name="" >
-                </div>
+            <div style="margin-top: 50px; margin-left: 15px;" class = "form">
+                <button type="submit">Register</button>
+            </div>
 
-                <div style="margin-top: 50px; margin-left: 15px;" class = "form">
-                    <button type="submit">Register</button>
-                </div>
-
-            </form>
-        </div>
-
+        </form>
+    </div>
 </body>
 </html>

@@ -35,7 +35,26 @@ body{
     float : right;
 }
 
-.banner{
+.banner-image{
+    background-image : url("/images/bg-img2.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
     filter: blur(5px);
-    width : 100vw;
+
+
+}
+
+.banner-text {
+    font-size: 48px;
+    text-align: center;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+
 }
