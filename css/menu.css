@@ -1,0 +1,23 @@
+#menu{
+    margin-top: 30px;
+    font-size: 48px;
+    text-align: center;
+    font-family: ;
+
+}
+
+.menu-tile{
+    padding: 50px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.menu-tile h2,p{
+    margin: 10px;
+}
+
+.menu-tile p{
+    width: 100px;
+}
