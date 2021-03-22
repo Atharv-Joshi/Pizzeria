@@ -1,13 +1,15 @@
-#menu{
+#menu-title{
     margin-top: 30px;
     font-size: 48px;
     text-align: center;
-    font-family: ;
+}
 
+.left-col{
+    
 }
 
 .menu-tile{
-    padding: 50px;
+    padding: 30px;
 }
 
 ul{

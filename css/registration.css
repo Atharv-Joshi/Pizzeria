@@ -17,7 +17,7 @@ body{
 .logsign{
     max-width: 320px;
     width: 90%;
-    background-color: #073B4C;
+    background-color: #335C67;
     padding: 40px;
     border-radius: 4px;
     transform: translate(-50%, -50%);
@@ -30,7 +30,7 @@ body{
 
 
 input[type=text]{
-    background-color: #073B4C;
+    background-color: #335C67;
     border:none;
     border-bottom: 2px solid black;
     color: white;
@@ -39,7 +39,7 @@ input[type=text]{
 }
 
 input[type=password]{
-    background-color: #073B4C;
+    background-color: #335C67;
     border:none;
     border-bottom: 2px solid black;
     color: white;
@@ -47,7 +47,7 @@ input[type=password]{
 }
 
 input[type=email]{
-    background-color: #073B4C;
+    background-color: #335C67;
     border:none;
     border-bottom: 2px solid black;
     color: white;
@@ -55,7 +55,7 @@ input[type=email]{
 }
 
 button{
-    background-color: #FFD166;
+    background-color: #E09F3E;
     border-radius: 10px;
     border: none;
     padding: 7px;

@@ -1,8 +1,8 @@
 footer{
-    background: #2D2E2E;
+    background: #540B0E;
     padding-top: 50px;
     margin-top: 200px;
-    color:#FBFBFB;
+    color:#F0F4EF;
     text-align: center;
     
 }
@@ -12,7 +12,7 @@ footer{
 }
 
 footer a{
-    color: #FBFBFB ;
+    color: #F0F4EF ;
     margin: 5px;
     cursor: pointer;
     text-decoration: none;
@@ -21,7 +21,7 @@ footer a{
 footer p{
     font-size: smaller;
     margin-top: 10px;
-    color: #e1e1e1;
+    color : #F0F4EF;
 }
 
 #b2t{
@@ -55,7 +55,7 @@ footer p{
   /* Facebook */
 .fa-facebook {
     background: #3B5998;
-    color: white;
+    color: #F0F4EF;
     float:right;
     margin-right: 50px;
     
@@ -64,13 +64,13 @@ footer p{
   /* Twitter */
 .fa-twitter {
     background: #55ACEE;
-    color: white;
+    color:#F0F4EF;
     float:right;
     
 }
 
 .fa-linkedin{
     background: #0e76a8;
-    color: white ;
+    color: #F0F4EF ;
     float:right;
 }
