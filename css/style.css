@@ -1,10 +1,13 @@
 *{
     margin: 0px;
+    box-sizing: border-box;
 }
 
 body{
-    background: #FFF3B0;
+    background: #FFF9D6;
 }
+
+/* banner css ------------------------------------------------------------------------------------------ */
 
 .banner-image{
     background-image : url("/images/bg-img2.jpg");
@@ -30,6 +33,9 @@ body{
 }
 
 
+/* Order method css ------------------------------------------------------------------------------- */
+
+
 .order-mtd{
     /* margin: 20px; */
     margin-top: 30px;
@@ -37,7 +43,7 @@ body{
     height: 120px;
     width: 500px;
     padding: 20px;
-    background: #9E2A2B;
+    /* background: #9E2A2B; */
     box-sizing: border-box;
 }
 
@@ -45,12 +51,13 @@ body{
     height:80px;
     padding: 20px 30px;
     font-size: large;
-    background: #EECB95;
+    background: #441011;
+    color: aliceblue;
     border: none;
 }
 
 .order-mtd span button:hover{
-    background: #F4DCB9;
+    background: #5f1515;
 }
 
 .delivery{
@@ -62,3 +69,5 @@ body{
     float: right;
     margin-right: 30px;
 }
+
+/* ------------------------------------------------------------------------------------------------ */

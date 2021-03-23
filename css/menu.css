@@ -1,25 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+
 #menu-title{
     margin-top: 30px;
     font-size: 48px;
     text-align: center;
 }
 
-.left-col{
-    
-}
 
 .menu-tile{
     padding: 30px;
+    background: green;
 }
 
-ul{
-    list-style-type: none;
-}
+
 
 .menu-tile h2,p{
     margin: 10px;
 }
 
 .menu-tile p{
-    width: 100px;
+  width : 40vw;
+  
 }
+
+.menu-img{
+    height: 20vh;
+}
+
