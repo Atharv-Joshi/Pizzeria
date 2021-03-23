@@ -2,6 +2,8 @@
     box-sizing: border-box;
 }
 
+
+
 #menu-title{
     margin-top: 30px;
     font-size: 48px;
@@ -10,10 +12,17 @@
 
 
 .menu-tile{
-    padding: 30px;
-    background: green;
+    text-align: center;
+    padding:50px 0px;
+
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    float: left;
 }
 
+.menu-tile:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
 
 
 .menu-tile h2,p{
@@ -28,4 +37,3 @@
 .menu-img{
     height: 20vh;
 }
-

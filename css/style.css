@@ -37,14 +37,12 @@ body{
 
 
 .order-mtd{
-    /* margin: 20px; */
+    margin: 20px;
     margin-top: 30px;
     margin-left: 100px;
     height: 120px;
     width: 500px;
     padding: 20px;
-    /* background: #9E2A2B; */
-    box-sizing: border-box;
 }
 
 .order-mtd span button{

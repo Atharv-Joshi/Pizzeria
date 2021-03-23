@@ -9,3 +9,17 @@ new  menu page
 background attachment fixed
 display flex
 justify content center
+
+float
+
+clear
+elements using clear igonre floated elements and continue to be in the position they were earlier in before getting affected by other elements float.
+
+static
+relative wrt to itself 
+absolute wrt its relative ansestor or body
+fixed wrt to the document 
+
+@media screen and (){
+    
+}
