@@ -1,12 +1,12 @@
 home page:
-best deals
-order method
+    best deals
+    center the menu
+    tiles different colour on hover
+    space between footer and menu
 
-new  menu page
 
-
-
-background attachment fixed
+background attachment 
+position fixed
 display flex
 justify content center
 

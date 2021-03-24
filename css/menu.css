@@ -1,36 +1,44 @@
 *{
     box-sizing: border-box;
+    cursor: default;
 }
 
 
 
 #menu-title{
-    margin-top: 30px;
+    margin: 30px;
     font-size: 48px;
     text-align: center;
+    position: relative;
+    right: 170px;
 }
 
 
 .menu-tile{
     text-align: center;
     padding:50px 0px;
-
+    margin: 20px 0px 20px 150px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     float: left;
+    width: 550px;
+    background: #BDF7B5;
 }
 
 .menu-tile:hover{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    background: #CEF9C8;
 }
 
 
-.menu-tile h2,p{
+.menu-tile h2{
     margin: 10px;
 }
 
 .menu-tile p{
-  width : 40vw;
+  width : 550px;
+  text-align: center;
+  margin: 10px 0px;
   
 }
 
