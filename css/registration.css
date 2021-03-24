@@ -14,15 +14,17 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
+    -webkit-filter: blur(10px);
     filter: blur(10px);
     
 }
 
 .logsign{
     max-width: 320px;
-    width: 90%;
+    /* width: 90%; */
+    /* height: 250px; */
     background-color: #335C67;
-    padding: 40px;
+    padding: 30px;
     border-radius: 4px;
     transform: translate(-50%, -50%);
     position: absolute;
@@ -57,31 +59,50 @@ input[type=email]{
     color: white;
     margin-left: 25px;
 }
+.row{
+    margin: 20px;
+}
 
 button{
+    margin: 18px 0px 0px 18px;
     background-color: #E09F3E;
     border-radius: 10px;
     border: none;
     padding: 7px;
+    float: left;
 }
 
-img{
-    -webkit-filter: blur(5px);
-    filter: blur(5px);
-    height: 100vh;
-    width: 100vw;
-}  
+button:hover{
+    cursor: pointer;
+    background: hsla(32, 100%, 50%, 1);
 
-#forgotpsswd{
-    margin-top: 35px;
-    color: white;
-    float: right;
-} 
+    background: linear-gradient(to right, hsla(32, 100%, 50%, 1) 0%, hsla(36, 72%, 56%, 1) 100%);
 
-#input{
-    margin-left: 25px;
+    background: -moz-linear-gradient(to right, hsla(32, 100%, 50%, 1) 0%, hsla(36, 72%, 56%, 1) 100%);
+
+    background: -webkit-linear-gradient(to right, hsla(32, 100%, 50%, 1) 0%, hsla(36, 72%, 56%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#ff8600", endColorstr="#E09F3E", GradientType=1 );
+
 }
 
+a{
+    text-decoration: none;
+    color: aliceblue;
+    cursor: pointer;
+}
 
+#s-l{
+    margin: 18px;
+    padding: 7px;
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+    left: 80px;
+}
+
+#s-l:hover{
+    font-size: 22px;  
+}
 
 
