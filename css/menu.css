@@ -58,9 +58,16 @@
         margin: 10px 0px 20px 30px;
         padding: 20px 0px 20px 0px;
         width: 80vw;
+        
+        
     }
 
+    .menu-tile p{
+        text-align:justify;
+        position: relative; 
+        left: 50px;
 
+    }
 
 
 }
