@@ -45,3 +45,26 @@
 .menu-img{
     height: 20vh;
 }
+
+@media only screen and (max-width: 425px){
+
+    #menu-title{
+        position: relative;
+        left: 0px;
+
+    }
+
+    .menu-tile{
+        margin: 10px 0px 20px 30px;
+        padding: 20px 0px 20px 0px;
+        width: 80vw;
+    }
+
+    .menu-tile p{
+        text-align: center;
+
+    }
+
+
+
+}

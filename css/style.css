@@ -72,8 +72,25 @@ body{
 
 /* ------------------------------------------------------------------------------------------------ */
 
-@media only screen and (max-width: 900px){
+@media only screen and (max-width: 425px){
     .order-mtd{
-        margin: 0px;
+        margin: 20px 0px 0px 0px;
+        padding: 5px;
+        
     }
+
+    .order-mtd span button{
+        font-size: small;
+        padding: 5px;
+    }
+
+    .pickup{
+        float: left;
+        margin-left: 100px ;
+    }
+
+    
+
+    
+    
 }
