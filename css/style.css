@@ -43,6 +43,7 @@ body{
     height: 120px;
     width: 500px;
     padding: 20px;
+    /* display: inline; */
 }
 
 .order-mtd span button{
@@ -69,6 +70,65 @@ body{
     float: right;
     margin-right: 30px;
 }
+
+
+.best-deals{
+    float: right;
+    display: inline;
+    position: relative;
+    bottom: 150px;
+    right: 40px;
+    text-align: center;
+    
+}
+
+.best-deals h2{
+    background-color: #90cab9;
+}
+
+.bd-buttons{
+    
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+}
+
+.button-left{
+    position: absolute;
+    bottom: 110px;
+    left: 00px;
+    background: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    
+}
+
+.button-right{
+    position: absolute;
+    bottom: 110px;
+    right: 00px;
+    background: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    
+}
+
+
+
 
 /* ------------------------------------------------------------------------------------------------ */
 

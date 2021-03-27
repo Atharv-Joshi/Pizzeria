@@ -3,7 +3,9 @@
     cursor: default;
 }
 
-
+.menu{
+    margin-top: 200px;
+}
 
 #menu-title{
     margin: 30px;
