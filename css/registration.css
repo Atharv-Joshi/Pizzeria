@@ -21,8 +21,6 @@ body{
 
 .logsign{
     max-width: 320px;
-    /* width: 90%; */
-    /* height: 250px; */
     background-color: #335C67;
     padding: 30px;
     border-radius: 4px;
@@ -59,6 +57,19 @@ input[type=email]{
     color: white;
     margin-left: 25px;
 }
+
+#input-text{
+    margin-left: 50px;
+}
+
+#input-email{
+    margin-left: 35px;
+}
+
+#input-psswd{
+    margin-left: 28px;
+}
+
 .row{
     margin: 20px;
 }
@@ -105,4 +116,18 @@ a{
     font-size: 22px;  
 }
 
+@media only screen and (max-width:425px){
+   #input-text{
+       margin: 0px;
+   }
 
+   #input-email{
+       margin: 0px;
+   }
+
+   #input-psswd{
+       margin: 0px;
+   }
+
+
+}

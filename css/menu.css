@@ -3,7 +3,9 @@
     cursor: default;
 }
 
-
+.menu{
+    margin-top: 200px;
+}
 
 #menu-title{
     margin: 30px;
@@ -21,7 +23,8 @@
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     float: left;
-    width: 550px;
+    /* width: 550px; */
+    width: 300px;
     background: #BDF7B5;
 }
 
@@ -36,7 +39,7 @@
 }
 
 .menu-tile p{
-  width : 550px;
+  /* width : 550px; */
   text-align: center;
   margin: 10px 0px;
   
@@ -44,4 +47,30 @@
 
 .menu-img{
     height: 20vh;
+}
+
+@media only screen and (max-width: 425px){
+
+    #menu-title{
+        position: relative;
+        left: 0px;
+
+    }
+
+    .menu-tile{
+        margin: 10px 0px 20px 30px;
+        padding: 20px 0px 20px 0px;
+        width: 80vw;
+        
+        
+    }
+
+    .menu-tile p{
+        text-align:justify;
+        position: relative; 
+        left: 50px;
+
+    }
+
+
 }
