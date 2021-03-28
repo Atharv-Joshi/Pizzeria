@@ -72,8 +72,10 @@ body{
 
 /* ------------------------------------------------------------------------------------------------ */
 
-@media only screen and (max-width: 900px){
+@media only screen and (max-width: 768px)
+{
     .order-mtd{
         margin: 0px;
+        color: black;
     }
 }

@@ -34,19 +34,23 @@
     float : right;
 }
 
-@media only screen and (max-width: 900px) 
+@media only screen and (max-width: 768px) 
 {
     .topnav{
         width: 100vw;
     
     }
 
-    #signup{
+    /* #signup{
         float: left;
     }
 
     #login{
         float: left;
+    } */
+
+    .topnav a{
+        font-size: 8px;
     }
 
 
