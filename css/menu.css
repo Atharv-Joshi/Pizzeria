@@ -46,6 +46,19 @@
   
 }
 
+#order-button{
+    position: relative;
+    top: 20px;
+    right: 80px;
+    padding: 5px;
+    border: 1px solid gray;
+}
+
+#order-button:hover{
+    border: 1px solid black;
+}
+
+
 .menu-img{
     height: 20vh;
 }
