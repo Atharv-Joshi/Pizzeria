@@ -26,12 +26,12 @@
     float: left;
     /* width: 550px; */
     width: 300px;
-    background: #BDF7B5;
+    background: #75FFC8;
 }
 
 .menu-tile:hover{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-    background: #CEF9C8;
+    background: #85FFC8;
 }
 
 
