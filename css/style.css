@@ -87,9 +87,16 @@ body{
     
 }
 
+/* best deals--------------------------------------------------------------------------------------------------------------- */
+
 .best-deals h2{
     background-color: #90cab9;
     /* background: transparent; */
+}
+
+.best-deals  img{
+    width: 350px;
+    height: 250px;
 }
 
 .bd-buttons{

@@ -118,6 +118,9 @@ a{
     font-size: 22px;  
 }
 
+
+
+
 @media only screen and (max-width:425px){
    #input-text{
        margin: 0px;
