@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box'
+}
+
+body{
+    margin: 0px;
+}
+
+.bgimg{
+    background: url("/images/bg-img.jpeg");
+    height: 100vh;
+    width : 100vw;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    -webkit-filter: blur(10px);
+    filter: blur(10px);
+    
+}
+
+.logsign{
+    max-width: 420px;
+    background-color: #335C67;
+    padding: 30px;
+    border-radius: 4px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    box-shadow: 3px 3px 4px rgba(0,0,0,0.2);    
+}
+
+
+input[type=text]{
+    background-color: #335C67;
+    border:none;
+    border-bottom: 2px solid black;
+    color: white;
+    margin-left: 10px;
+    
+}
+
+input[type=password]{
+    background-color: #335C67;
+    border:none;
+    border-bottom: 2px solid black;
+    color: white;
+    margin-left: 10px;
+    position: relative;
+    left: 25px;
+}
+
+input[type=email]{
+    background-color: #335C67;
+    border:none;
+    border-bottom: 2px solid black;
+    color: white;
+    margin-left: 25px;
+}
+
+#input-text{
+    margin-left: 50px;
+}
+
+#input-email{
+    margin-left: 35px;
+}
+
+#input-psswd{
+    margin-left: 28px;
+}
+
+.row{
+    margin: 20px;
+}
+
+button{
+    margin: 18px 0px 0px 18px;
+    background-color: #E09F3E;
+    border-radius: 10px;
+    border: none;
+    padding: 7px;
+    float: left;
+}
+
+button:hover{
+    cursor: pointer;
+    background: hsla(32, 100%, 50%, 1);
+
+    background: linear-gradient(to right, hsla(32, 100%, 50%, 1) 0%, hsla(36, 72%, 56%, 1) 100%);
+
+    background: -moz-linear-gradient(to right, hsla(32, 100%, 50%, 1) 0%, hsla(36, 72%, 56%, 1) 100%);
+
+    background: -webkit-linear-gradient(to right, hsla(32, 100%, 50%, 1) 0%, hsla(36, 72%, 56%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#ff8600", endColorstr="#E09F3E", GradientType=1 );
+
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+#s-l{
+    margin: 18px;
+    padding: 7px;
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+    left: 80px;
+}
+
+#s-l:hover{
+    font-size: 22px;  
+}
+
+
+
+
+@media only screen and (max-width:425px){
+   #input-text{
+       margin: 0px;
+   }
+
+   #input-email{
+       margin: 0px;
+   }
+
+   #input-psswd{
+       margin: 0px;
+       position: relative;
+       left :0px;
+   }
+
+
+}

@@ -1,3 +1,25 @@
-re organize current pages into a version specific folder.
-create a navbar
-create login/sign up pages.
+home page:
+    best deals
+    center the menu
+    tiles different colour on hover
+    space between footer and menu
+
+
+background attachment 
+position fixed
+display flex
+justify content center
+
+float
+
+clear
+elements using clear igonre floated elements and continue to be in the position they were earlier in before getting affected by other elements float.
+
+static
+relative wrt to itself 
+absolute wrt its relative ansestor or body
+fixed wrt to the document 
+
+@media screen and (){
+    
+}
